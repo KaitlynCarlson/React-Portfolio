@@ -6,7 +6,7 @@ function Navigation() {
     <div id="navigation-container">
       <Name />
       <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class=" navbar-expand" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
               <a class="nav-link" href="#">
