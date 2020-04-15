@@ -1,6 +1,10 @@
 #nav {
   background-color: black !important;
+}
+#navigation-container {
   display: flex;
   justify-content: center;
-  align-content: center;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 20px;
 }
