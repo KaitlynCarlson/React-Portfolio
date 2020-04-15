@@ -1,0 +1,6 @@
+#nav {
+  background-color: black !important;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
