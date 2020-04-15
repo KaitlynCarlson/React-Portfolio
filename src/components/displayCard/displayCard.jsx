@@ -3,17 +3,20 @@ import "./style.css";
 class DisplayCard extends React.Component {
   render() {
     return (
-      <div class="card text-white bg-dark" id="display-card">
-        <div class="card-header">Quote</div>
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              posuere erat a ante.
-            </p>
-            <footer class="blockquote-footer">
-              Someone famous in <cite title="Source Title">Source Title</cite>
-            </footer>
+      <div className="card text-white bg-dark" id="display-card">
+        <div className="card-header">
+          <h1 className="lead" style={{ align: "center" }}>
+            About
+          </h1>
+        </div>
+        <div className="card-body">
+          <blockquote className="blockquote mb-0">
+            <div className="row item">
+              <i className="far fa-check-square fa-1x"></i>
+              <p className="lead" className="tidbit">
+                Ability to thrive in fast-paced, dynamic environment
+              </p>
+            </div>
           </blockquote>
         </div>
       </div>

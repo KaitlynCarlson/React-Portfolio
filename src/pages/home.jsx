@@ -8,7 +8,6 @@ const Home = () => (
     <div id="wrapper">
       <Navigation />
       <div className="container" id="content-container">
-        <Cat />
         <DisplayCard />
       </div>
     </div>

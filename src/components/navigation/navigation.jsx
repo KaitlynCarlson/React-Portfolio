@@ -1,9 +1,12 @@
 import React from "react";
 import Name from "../Name/name";
+import Cat from "../cat/cat";
 import "./style.css";
 function Navigation() {
   return (
     <div id="navigation-container">
+      <Cat />
+
       <Name />
       <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class=" navbar-expand" id="navbarSupportedContent">

@@ -2,3 +2,10 @@
   margin-top: 20px;
   background-color: black !important;
 }
+.item {
+  display: flex;
+  align-items: baseline;
+}
+.tidbit {
+  margin: 10px;
+}
