@@ -1,0 +1,62 @@
+import React from "react";
+import "./style.css";
+
+function Skills() {
+  return (
+    <div id="content">
+      <div className="card text-white bg-dark display-card">
+        <div className="card-header">
+          <div className="header-container">
+            <h1 className="lead" id="skills-header">
+              Skills
+            </h1>
+          </div>
+        </div>
+        <div className="row skills-row">
+          <div className="card-body col-4">
+            <p>React</p>
+            <p>Node.js</p>
+          </div>
+
+          <div className="card-body col-lg-4">
+            <p>SQL</p>
+            <p>Mongo</p>
+          </div>
+
+          <div className="card-body col-lg-4">
+            <p>jQuery</p>
+            <p>Express</p>
+          </div>
+        </div>
+        <div className="card text-white bg-dark display-card">
+          <div className="card-header">
+            <div className="header-container">
+              <h1 className="lead" id="languages-header">
+                Languages
+              </h1>
+            </div>
+          </div>
+          <div className="row languages-row">
+            <div className="col-4">
+              <div className="card-body">
+                <i className="fab fa-html5 fa-3x icon"></i>
+              </div>
+            </div>
+            <div className="col-4">
+              <div className="card-body">
+                {" "}
+                <i className="fab fa-css3-alt fa-3x icon"></i>
+              </div>
+            </div>
+            <div className="col-4">
+              <div className="card-body">
+                <i className="fab fa-js-square fa-3x icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+export default Skills;

@@ -20,21 +20,19 @@ function About() {
         <blockquote className="blockquote mb-0">
           <div className="row item">
             <i className="far fa-check-square fa-1x"></i>
-            <p className="lead" className="tidbit">
+            <p className="lead tidbit">
               Ability to thrive in fast-paced, dynamic environment.
             </p>
           </div>
           <div className="row item">
             <i className="far fa-check-square fa-1x"></i>
-            <p className="lead" className="tidbit">
+            <p className="lead tidbit">
               Desire to learn, grow, and evolve through challenges.
             </p>
           </div>
           <div className="row item">
             <i className="far fa-check-square fa-1x"></i>
-            <p className="lead" className="tidbit">
-              Tireless work ethic.
-            </p>
+            <p className="lead tidbit">Tireless work ethic.</p>
           </div>
         </blockquote>
       </div>
