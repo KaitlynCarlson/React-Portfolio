@@ -11,7 +11,7 @@ function Projects() {
         <div className="projectContainer">
           <img src={Mothra} alt="Mothra Project" id="mothraImg" />
           <i className="fab fa-github fa-3x link" id="mothraRepo"></i>
-          <h1>Mothra Project Management</h1>
+          <h1 className="display-4">Mothra Project Management</h1>
           <p>
             Mothra allows teams to track their project development progress.
             This app utilizes a myriad of technologies in an effort to provide
@@ -23,7 +23,7 @@ function Projects() {
           <img src={BudgetTracker} alt="Budget Tracker" id="budgetTracker" />
           <i className="fab fa-github fa-3x link" id="mothraRepo"></i>
 
-          <h1>Budget Tracker PWA</h1>
+          <h1 className="display-4">Budget Tracker PWA</h1>
 
           <p>
             Installable Budget Tracker PWA with offline and online capabilities.
@@ -41,7 +41,7 @@ function Projects() {
           />
           <i className="fab fa-github fa-3x link" id="mothraRepo"></i>
 
-          <h1>React Employee Directory</h1>
+          <h1 className="display-4">React Employee Directory</h1>
           <p>
             An employee directory built with React in which employees can be
             searched by date of birth or by their name. Employee data can be
@@ -57,13 +57,17 @@ function Projects() {
           />
           <i className="fab fa-github fa-3x link" id="mothraRepo"></i>
 
-          <h1>Eat Da Burger App</h1>
+          <h1 className="display-4">Eat Da Burger App</h1>
           <p>
             An interactive application using MySQL, Node, Express, Handlebars,
             and a custom ORM utilizing the MVC design pattern. Users can create
             burgers, devour burgers, and prep burgers!
           </p>
         </div>
+      </div>
+      <div className="projectContainer" id="moreProjects">
+        <h1 className="lead">More available on GitHub</h1>
+        <i className="fab fa-github fa-2x link" id="personalRepo"></i>
       </div>
     </div>
   );

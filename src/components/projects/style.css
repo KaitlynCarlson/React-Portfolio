@@ -25,8 +25,15 @@
   flex-flow: column;
   justify-content: center;
   align-self: center;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 #mothraRepo {
   margin: 10px;
+}
+#moreProjects {
+  margin-top: 15%;
+  font-size: 24px;
+}
+#personalRepo {
+  margin: 5%;
 }
