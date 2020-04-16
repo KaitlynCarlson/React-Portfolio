@@ -16,21 +16,42 @@ function Projects() {
             Mothra allows teams to track their project development progress.
             This app utilizes a myriad of technologies in an effort to provide
             users with good visibility of work status and develop more
-            effectively
+            effectively.
+            <br />
+            <br />
+            This project is a web application that allows a team to track their
+            project development progress, issues, total number of tasks, and
+            present that information in a web dashboard. Mothra allows users to
+            create projects which are assigned to a team. A team consists of
+            multiple users/employees. Users can also create tasks for a specific
+            project. Each project consists of many tasks. Each task can be
+            assigned to one user/employee, whose team is responsible for the
+            project. Each task has state of (new, in-progress, complete,
+            closed).
+          </p>
+          <br />
+          <h4>Technologies</h4>
+          <p>
+            Bulma CSS | Chart.js | Express | Font Awesome | Handlebars |
+            JavaScript | jQuery | MySQL | Sequelize
           </p>
         </div>
         <div className="projectContainer">
           <img src={BudgetTracker} alt="Budget Tracker" id="budgetTracker" />
           <i className="fab fa-github fa-3x link" id="mothraRepo"></i>
-
           <h1 className="display-4">Budget Tracker PWA</h1>
-
           <p>
             Installable Budget Tracker PWA with offline and online capabilities.
             Much of this application was built during an in-class activity
             during the University of Washington Full-stack Web Development
             Bootcamp. In this rendition we were tasked with creating a Service
             Worker and Manifest in order to make this application a PWA.
+          </p>
+          <br />
+          <h4>Technologies</h4>
+          <p>
+            JavaScript | IndexedDB | Express | MongoDB | Mongoose | Font Awesome
+            | Bootstrap
           </p>
         </div>
         <div className="projectContainer">
@@ -47,6 +68,9 @@ function Projects() {
             searched by date of birth or by their name. Employee data can be
             sorted by date of birth or alphabetically.
           </p>
+          <br />
+          <h4>Technologies</h4>
+          <p>React | JavaScript | Axios | Randomuser.me | Bootstrap</p>
         </div>
 
         <div className="projectContainer">
@@ -62,6 +86,12 @@ function Projects() {
             An interactive application using MySQL, Node, Express, Handlebars,
             and a custom ORM utilizing the MVC design pattern. Users can create
             burgers, devour burgers, and prep burgers!
+          </p>
+          <br />
+          <h4>Technologies</h4>
+          <p>
+            Heroku | JAWS DB | JavaScript | Node.js | jQuery | MySQL |
+            Express.js | Handlebars.js | Bootstrap | AOS
           </p>
         </div>
       </div>
