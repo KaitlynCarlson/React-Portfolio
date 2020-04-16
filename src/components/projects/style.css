@@ -1,0 +1,24 @@
+.container {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+#mothraImg,
+#employeeDirectory,
+#budgetTracker {
+  height: 100px;
+  width: 100px;
+  border-radius: 30%;
+  margin: 30%;
+}
+
+#projects-header {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+#projects {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
