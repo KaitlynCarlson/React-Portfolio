@@ -7,7 +7,7 @@ class DisplayCard extends React.Component {
     return (
       <React.Fragment>
         {/* <About /> */}
-        <Contact />
+        {/* <Contact /> */}
       </React.Fragment>
     );
   }
