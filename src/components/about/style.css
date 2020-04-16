@@ -1,0 +1,27 @@
+#display-card {
+  margin-top: 20px;
+  background-color: black !important;
+  display: flex;
+}
+.tidbit {
+  margin: 10px;
+}
+.card-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#header {
+  font-size: 30px;
+}
+#photo {
+  object-fit: contain;
+  align-self: flex-start;
+}
+.text {
+  align-self: flex-end;
+}
+.contact-card {
+  flex-flow: row;
+  justify-content: center;
+}
