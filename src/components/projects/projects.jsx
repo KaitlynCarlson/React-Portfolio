@@ -83,9 +83,9 @@ function Projects() {
 
           <h1 className="display-4">Eat Da Burger App</h1>
           <p>
-            An interactive application using MySQL, Node, Express, Handlebars,
-            and a custom ORM utilizing the MVC design pattern. Users can create
-            burgers, devour burgers, and prep burgers!
+            An interactive application built with a custom ORM utilizing the MVC
+            design pattern. Users can create burgers, devour burgers, and prep
+            burgers!
           </p>
           <br />
           <h4>Technologies</h4>
