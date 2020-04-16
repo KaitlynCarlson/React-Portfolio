@@ -5,20 +5,28 @@
 }
 #mothraImg,
 #employeeDirectory,
-#budgetTracker {
-  height: 100px;
-  width: 100px;
+#budgetTracker,
+#burger {
+  height: 150px;
+  width: 150px;
   border-radius: 30%;
-  margin: 30%;
 }
-
 #projects-header {
   display: flex;
   flex-flow: column;
   align-items: center;
 }
 #projects {
+  margin-top: 1%;
+}
+.projectContainer {
+  align-items: center;
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   justify-content: center;
+  align-self: center;
+  margin-bottom: 5%;
+}
+#mothraRepo {
+  margin: 10px;
 }
