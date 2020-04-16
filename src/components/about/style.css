@@ -6,9 +6,7 @@
 .tidbit {
   margin: 10px;
 }
-#photo {
-  border-radius: 32%;
-}
+
 .card-body {
   display: flex;
   align-items: center;
@@ -23,6 +21,7 @@
 #photo {
   object-fit: contain;
   align-self: flex-start;
+  border-radius: 32%;
 }
 .text {
   align-self: flex-end;
