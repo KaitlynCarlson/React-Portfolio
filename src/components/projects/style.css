@@ -30,6 +30,18 @@
 #mothraRepo {
   margin: 10px;
 }
+i {
+  margin: 20px;
+}
+i:hover {
+  opacity: 30%;
+}
+#mothraImg:hover,
+#budgetTracker:hover,
+#employeeDirectory:hover,
+#burger:hover {
+  opacity: 30%;
+}
 #moreProjects {
   margin-top: 15%;
   font-size: 24px;

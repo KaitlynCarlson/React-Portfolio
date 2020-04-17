@@ -5,12 +5,30 @@ import BudgetTracker from "./project imgs/budgetIcon.png";
 import "./style.css";
 
 function Projects() {
+  // handleMothraClick = (event) => {
+  //   event.preventDefault;
+  // };
   return (
     <div className="container" id="projects-header">
       <div id="projects">
         <div className="projectContainer">
-          <img src={Mothra} alt="Mothra Project" id="mothraImg" />
-          <i className="fab fa-github fa-3x link" id="mothraRepo"></i>
+          <img
+            src={Mothra}
+            alt="Mothra Project"
+            id="mothraImg"
+            onClick={() => {
+              window.open("https://the-best-project-manager.herokuapp.com/");
+            }}
+          />
+          <i
+            className="fab fa-github fa-3x link"
+            id="mothraRepo"
+            onClick={() => {
+              window.open(
+                "https://github.com/maximilianc88/Project-Planner-Application"
+              );
+            }}
+          ></i>
           <h1 className="display-4">Mothra Project Management</h1>
           <p>
             Mothra allows teams to track their project development progress.
@@ -37,8 +55,21 @@ function Projects() {
           </p>
         </div>
         <div className="projectContainer">
-          <img src={BudgetTracker} alt="Budget Tracker" id="budgetTracker" />
-          <i className="fab fa-github fa-3x link" id="mothraRepo"></i>
+          <img
+            src={BudgetTracker}
+            alt="Budget Tracker"
+            id="budgetTracker"
+            onClick={() => {
+              window.open("https://afternoon-reef-37574.herokuapp.com/");
+            }}
+          />
+          <i
+            className="fab fa-github fa-3x link"
+            id="budgetRepo"
+            onClick={() => {
+              window.open("https://github.com/KaitlynCarlson/Budget-Tracker");
+            }}
+          ></i>
           <h1 className="display-4">Budget Tracker PWA</h1>
           <p>
             Installable Budget Tracker PWA with offline and online capabilities.
@@ -59,8 +90,19 @@ function Projects() {
             src={EmployeeDirectory}
             alt="Employee Directory"
             id="employeeDirectory"
+            onClick={() => {
+              window.open("https://shrouded-ocean-10504.herokuapp.com/");
+            }}
           />
-          <i className="fab fa-github fa-3x link" id="mothraRepo"></i>
+          <i
+            className="fab fa-github fa-3x link"
+            id="employeeRepo"
+            onClick={() => {
+              window.open(
+                "https://github.com/KaitlynCarlson/Employee-Directory"
+              );
+            }}
+          ></i>
 
           <h1 className="display-4">React Employee Directory</h1>
           <p>
@@ -78,8 +120,17 @@ function Projects() {
             src="https://cdn.pixabay.com/photo/2014/04/02/10/49/burger-304707_960_720.png"
             alt="Eat Da Burger"
             id="burger"
+            onClick={() => {
+              window.open("https://rocky-dusk-41654.herokuapp.com/");
+            }}
           />
-          <i className="fab fa-github fa-3x link" id="mothraRepo"></i>
+          <i
+            className="fab fa-github fa-3x link"
+            id="burgerRepo"
+            onClick={() => {
+              window.open("https://github.com/KaitlynCarlson/burger");
+            }}
+          ></i>
 
           <h1 className="display-4">Eat Da Burger App</h1>
           <p>
