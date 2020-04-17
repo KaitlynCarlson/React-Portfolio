@@ -19,19 +19,35 @@ function Contact() {
           </h1>
           <h3 className="lead"> 📍 Based in Seattle, WA</h3>
         </div>
-        <div className="card-body">
+        <div className="card-body contactContent">
           <blockquote className="blockquote mb-0">
             <div className="row item">
-              <i className="far fa-envelope fa-1x link" id="email"></i>
+              <a href="mailto:kaitlynannecarlson@gmail.com">
+                <i className="far fa-envelope fa-1x link" id="email"></i>
+              </a>
 
               <p className="lead tidbit">KaitlynAnneCarlson@gmail.com</p>
             </div>
             <div className="row item">
-              <i className="fab fa-github fa-1x link" id="githubrepo"></i>
+              <i
+                className="fab fa-github fa-1x link"
+                id="githubrepo"
+                onClick={() => {
+                  window.open("https://github.com/KaitlynCarlson");
+                }}
+              ></i>
               <p className="lead tidbit">GitHub Profile</p>
             </div>
             <div className="row item">
-              <i className="fab fa-linkedin-in fa-1x link" id="linkedin"></i>
+              <i
+                className="fab fa-linkedin-in fa-1x link"
+                id="linkedin"
+                onClick={() => {
+                  window.open(
+                    "https://www.linkedin.com/in/kaitlynannecarlson/"
+                  );
+                }}
+              ></i>
               <p className="lead tidbit">LinkedIn Profile</p>
             </div>
           </blockquote>

@@ -7,3 +7,9 @@
   margin-top: 20px;
   background-color: black !important;
 }
+.contactContent {
+  padding-left: 0;
+}
+a {
+  color: white;
+}
