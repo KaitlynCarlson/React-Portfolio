@@ -16,7 +16,7 @@ a {
 .contact-card {
   margin: 20%;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .column {
     display: flex;
     flex-direction: column;
