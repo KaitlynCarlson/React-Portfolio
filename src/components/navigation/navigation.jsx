@@ -2,44 +2,83 @@ import React from "react";
 import Name from "../Name/name";
 import Cat from "../cat/cat";
 import "./style.css";
-function Navigation() {
-  return (
-    <div id="navigation-container">
-      <Cat />
+class Navigation extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      page: "about",
+    };
+  }
+  handleNavigation = (event) => {
+    event.preventDefault();
+    const renderComponent = event.target.name;
+    this.setState({ page: renderComponent });
+  };
 
-      <Name />
-      <nav id="nav" className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className=" navbar-expand" id="navbarSupportedContent">
-          <ul className="navbar-nav mr-auto">
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                About
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Projects
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Skills
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Resume
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  );
+  render() {
+    return (
+      <div id="navigation-container">
+        <Cat />
+
+        <Name />
+        <nav id="nav" className="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div className=" navbar-expand" id="navbarSupportedContent">
+            <ul className="navbar-nav mr-auto">
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="#"
+                  name="about"
+                  onClick={this.handleNavigation}
+                >
+                  About
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  onClick={this.handleNavigation}
+                  className="nav-link"
+                  href="#"
+                  name="projects"
+                >
+                  Projects
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  onClick={this.handleNavigation}
+                  className="nav-link"
+                  href="#"
+                  name="skills"
+                >
+                  Skills
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  onClick={this.handleNavigation}
+                  className="nav-link"
+                  href="#"
+                  name="resume"
+                >
+                  Resume
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  onClick={this.handleNavigation}
+                  className="nav-link"
+                  href="#"
+                  name="contact"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    );
+  }
 }
 export default Navigation;
