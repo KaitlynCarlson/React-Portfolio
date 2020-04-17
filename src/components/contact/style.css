@@ -7,9 +7,41 @@
   margin-top: 20px;
   background-color: black !important;
 }
-.contactContent {
-  padding-left: 0;
-}
 a {
   color: white;
+}
+#contactheader {
+  text-align: left;
+}
+.contact-card {
+  margin: 20%;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5% !important;
+  }
+
+  #email {
+    font-size: 15px;
+  }
+
+  #contact-container,
+  #contactheader {
+    text-align: center;
+  }
+  #photo,
+  #display-card {
+    align-self: center;
+    display: flex;
+  }
+  .lead {
+    text-align: center;
+  }
 }

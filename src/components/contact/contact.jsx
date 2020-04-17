@@ -4,7 +4,10 @@ import "./style.css";
 
 function Contact() {
   return (
-    <div className="card text-white bg-dark contact-card" id="display-card">
+    <div
+      className="card column text-white bg-dark contact-card container-fluid "
+      id="display-card"
+    >
       <img
         src={PersonalPhoto}
         alt="Kaitlyn Carlson"
@@ -12,10 +15,10 @@ function Contact() {
         width="300px"
         id="photo"
       />
-      <div className="text">
+      <div className="text ">
         <div className="card-header">
-          <h1 className="lead" id="header">
-            Contact{" "}
+          <h1 className="display-5" id="contactheader">
+            Contact
           </h1>
           <h3 className="lead"> 📍 Based in Seattle, WA</h3>
         </div>
@@ -26,7 +29,9 @@ function Contact() {
                 <i className="far fa-envelope fa-1x link" id="email"></i>
               </a>
 
-              <p className="lead tidbit">KaitlynAnneCarlson@gmail.com</p>
+              <p className="lead tidbit" id="email">
+                KaitlynAnneCarlson@gmail.com
+              </p>
             </div>
             <div className="row item">
               <i

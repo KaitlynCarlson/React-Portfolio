@@ -6,17 +6,20 @@
   justify-content: center;
   padding: 10px;
   border-bottom: 1px groove white;
-
   text-align: center;
 }
 
 #technologies-header {
   padding-top: 5%;
 }
+#skills-header {
+  padding-top: 3%;
+}
 
 #technologies {
   width: 100%;
   height: auto;
+  padding-bottom: 10%;
 }
 .skills-row,
 .languages-row {
