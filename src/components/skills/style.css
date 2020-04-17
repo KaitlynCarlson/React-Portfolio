@@ -1,11 +1,22 @@
 #skills-header,
-#languages-header {
+#languages-header,
+#technologies-header {
   font-size: 24px;
   display: flex;
   justify-content: center;
   padding: 10px;
   border-bottom: 1px groove white;
+
   text-align: center;
+}
+
+#technologies-header {
+  padding-top: 5%;
+}
+
+#technologies {
+  width: 100%;
+  height: auto;
 }
 .skills-row,
 .languages-row {
@@ -16,10 +27,7 @@
 }
 #content {
   color: white;
-  padding-top: 1%;
-  border: 1px groove white;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-bottom: 5%;
 }
 #languages-header {
   padding-top: 5%;
