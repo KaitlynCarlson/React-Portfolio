@@ -2,6 +2,8 @@ import React from "react";
 import Name from "../Name/name";
 import Cat from "../cat/cat";
 import "./style.css";
+import DisplayCard from "../displayCard/displayCard";
+
 class Navigation extends React.Component {
   constructor(props) {
     super(props);
@@ -17,66 +19,70 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <div id="navigation-container">
-        <Cat />
-
-        <Name />
-        <nav id="nav" className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div className=" navbar-expand" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="#"
-                  name="about"
-                  onClick={this.handleNavigation}
-                >
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  onClick={this.handleNavigation}
-                  className="nav-link"
-                  href="#"
-                  name="projects"
-                >
-                  Projects
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  onClick={this.handleNavigation}
-                  className="nav-link"
-                  href="#"
-                  name="skills"
-                >
-                  Skills
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  onClick={this.handleNavigation}
-                  className="nav-link"
-                  href="#"
-                  name="resume"
-                >
-                  Resume
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  onClick={this.handleNavigation}
-                  className="nav-link"
-                  href="#"
-                  name="contact"
-                >
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+      <div>
+        <div id="navigation-container">
+          <Cat />
+          <Name />
+          <nav id="nav" className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div className=" navbar-expand" id="navbarSupportedContent">
+              <ul className="navbar-nav mr-auto">
+                <li className="nav-item">
+                  <a
+                    className="nav-link"
+                    href="#"
+                    name="about"
+                    onClick={this.handleNavigation}
+                  >
+                    About
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    onClick={this.handleNavigation}
+                    className="nav-link"
+                    href="#"
+                    name="projects"
+                  >
+                    Projects
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    onClick={this.handleNavigation}
+                    className="nav-link"
+                    href="#"
+                    name="skills"
+                  >
+                    Skills
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    onClick={this.handleNavigation}
+                    className="nav-link"
+                    href="#"
+                    name="resume"
+                  >
+                    Resume
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    onClick={this.handleNavigation}
+                    className="nav-link"
+                    href="#"
+                    name="contact"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div className="container" id="content-container">
+          <DisplayCard name={this.state.page} />
+        </div>
       </div>
     );
   }
