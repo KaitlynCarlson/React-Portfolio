@@ -17,7 +17,7 @@ function Contact() {
           <h1 className="lead" id="header">
             Contact{" "}
           </h1>
-          <h3 className="lead">Based in Seattle, WA</h3>
+          <h3 className="lead"> 📍 Based in Seattle, WA</h3>
         </div>
         <div className="card-body">
           <blockquote className="blockquote mb-0">
