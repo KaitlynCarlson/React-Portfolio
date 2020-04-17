@@ -3,7 +3,7 @@ import "./style.css";
 function Resume() {
   return (
     <iframe
-      src="https://drive.google.com/file/d/18plPthE0JWJggHppapxQYniMUMQSjSmj/preview"
+      src="https://drive.google.com/file/d/11VUARpHJDCUE5v7el9efAEd53eOLkq44/preview"
       width="640"
       height="750"
       id="resume"
