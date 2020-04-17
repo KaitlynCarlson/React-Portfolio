@@ -3,7 +3,7 @@ import "./style.css";
 
 function About() {
   return (
-    <div className="card text-white bg-dark" id="display-card">
+    <div className="card text-white bg-dark aboutCard" id="display-card">
       <div className="card-header">
         <h1
           className="lead"
