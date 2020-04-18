@@ -13,7 +13,7 @@ function About() {
             fontSize: " 24px",
           }}
         >
-          A Couple of Pebbles
+          The Tidbits{" "}
         </h1>
       </div>
 
