@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+        <Route path={"/"} component={Home} />
       </Switch>
     </Router>
   );
