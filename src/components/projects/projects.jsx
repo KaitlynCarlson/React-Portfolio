@@ -56,6 +56,35 @@ function Projects() {
         </div>
         <div className="projectContainer">
           <img
+            src={EmployeeDirectory}
+            alt="Employee Directory"
+            id="employeeDirectory"
+            onClick={() => {
+              window.open("https://shrouded-ocean-10504.herokuapp.com/");
+            }}
+          />
+          <i
+            className="fab fa-github fa-3x link"
+            id="employeeRepo"
+            onClick={() => {
+              window.open(
+                "https://github.com/KaitlynCarlson/Employee-Directory"
+              );
+            }}
+          ></i>
+
+          <h1 className="display-4">React Employee Directory</h1>
+          <p>
+            An employee directory built with React in which employees can be
+            searched by date of birth or by their name. Employee data can be
+            sorted by date of birth or alphabetically.
+          </p>
+          <br />
+          <h4>Technologies</h4>
+          <p>React | JavaScript | Axios | Randomuser.me | Bootstrap</p>
+        </div>
+        <div className="projectContainer">
+          <img
             src={BudgetTracker}
             alt="Budget Tracker"
             id="budgetTracker"
@@ -84,35 +113,6 @@ function Projects() {
             JavaScript | IndexedDB | Express | MongoDB | Mongoose | Font Awesome
             | Bootstrap
           </p>
-        </div>
-        <div className="projectContainer">
-          <img
-            src={EmployeeDirectory}
-            alt="Employee Directory"
-            id="employeeDirectory"
-            onClick={() => {
-              window.open("https://shrouded-ocean-10504.herokuapp.com/");
-            }}
-          />
-          <i
-            className="fab fa-github fa-3x link"
-            id="employeeRepo"
-            onClick={() => {
-              window.open(
-                "https://github.com/KaitlynCarlson/Employee-Directory"
-              );
-            }}
-          ></i>
-
-          <h1 className="display-4">React Employee Directory</h1>
-          <p>
-            An employee directory built with React in which employees can be
-            searched by date of birth or by their name. Employee data can be
-            sorted by date of birth or alphabetically.
-          </p>
-          <br />
-          <h4>Technologies</h4>
-          <p>React | JavaScript | Axios | Randomuser.me | Bootstrap</p>
         </div>
 
         <div className="projectContainer">

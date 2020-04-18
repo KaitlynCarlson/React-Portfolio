@@ -2,11 +2,23 @@
   margin-top: 20px;
   background-color: black !important;
   display: flex;
+
+  padding-bottom: 10%;
 }
 .tidbit {
   margin: 10px;
 }
 
+#aboutPara {
+  padding-top: 10%;
+}
+#about {
+  padding-bottom: 10%;
+}
+#divider {
+  display: flex;
+  align-self: center;
+}
 .card-body {
   display: flex;
   align-items: center;
@@ -29,6 +41,14 @@
 .contact-card {
   flex-flow: row;
   justify-content: center;
+}
+#divider {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  border: 3px solid whitesmoke;
+  padding: 20px;
+  border-radius: 50%;
 }
 @media screen and (max-width: 700px) {
   .aboutItems {
