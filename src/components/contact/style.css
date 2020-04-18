@@ -16,6 +16,9 @@ a {
 .contact-card {
   margin: 20%;
 }
+.contactContent {
+  padding: 0;
+}
 @media screen and (max-width: 700px) {
   .column {
     display: flex;
@@ -26,6 +29,7 @@ a {
     flex-direction: column;
     justify-content: center;
     padding-top: 5% !important;
+    align-self: center;
   }
 
   #email {
@@ -35,6 +39,12 @@ a {
   #contact-container,
   #contactheader {
     text-align: center;
+  }
+  #content {
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    align-self: center;
   }
   #photo,
   #display-card {

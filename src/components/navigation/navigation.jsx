@@ -29,7 +29,7 @@ class Navigation extends React.Component {
                 <li className="nav-item">
                   <a
                     className="nav-link"
-                    href="#"
+                    href="/about"
                     name="about"
                     onClick={this.handleNavigation}
                   >
@@ -40,7 +40,7 @@ class Navigation extends React.Component {
                   <a
                     onClick={this.handleNavigation}
                     className="nav-link"
-                    href="#"
+                    href="/projects"
                     name="projects"
                   >
                     Projects
@@ -50,7 +50,7 @@ class Navigation extends React.Component {
                   <a
                     onClick={this.handleNavigation}
                     className="nav-link"
-                    href="#"
+                    href="/skills"
                     name="skills"
                   >
                     Skills
@@ -60,7 +60,7 @@ class Navigation extends React.Component {
                   <a
                     onClick={this.handleNavigation}
                     className="nav-link"
-                    href="#"
+                    href="/resume"
                     name="resume"
                   >
                     Resume
@@ -70,7 +70,7 @@ class Navigation extends React.Component {
                   <a
                     onClick={this.handleNavigation}
                     className="nav-link"
-                    href="#"
+                    href="/contact"
                     name="contact"
                   >
                     Contact

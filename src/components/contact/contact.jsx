@@ -22,7 +22,10 @@ function Contact() {
           </h1>
           <h3 className="lead">
             {" "}
-            <span>📍</span> Based in Seattle, WA
+            <span role="img" aria-label="Pindrop">
+              📍
+            </span>{" "}
+            Based in Seattle, WA
           </h3>
         </div>
         <div className="card-body contactContent">
