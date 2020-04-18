@@ -6,7 +6,11 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route
+          exact
+          path="https://kaitlyncarlson.github.io/React-Portfolio//"
+          component={Home}
+        />
       </Switch>
     </Router>
   );
