@@ -6,11 +6,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route
-          exact
-          path="https://kaitlyncarlson.github.io/React-Portfolio//"
-          component={Home}
-        />
+        <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
       </Switch>
     </Router>
   );
