@@ -8,7 +8,7 @@ Proven track record of effective collatoration on a team to achieve exemplary re
 
 Versatile skills in idea synthesis, creative problem solving, and the ability to thrive in high-pressure environments
 
-## Technologies Used
+## Technologies Used for Portfolio
 
 - JavaScript
 - React
@@ -16,6 +16,7 @@ Versatile skills in idea synthesis, creative problem solving, and the ability to
 - CSS
 - BootStrap
 - Font Awesome
+- gh-pages
 
 ## Learn More
 
