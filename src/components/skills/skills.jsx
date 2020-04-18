@@ -19,8 +19,8 @@ function Skills() {
             <p>Node.js</p>
           </div>
           <div className="card-body col-lg-4">
-            <p>SQL</p>
-            <p>Mongo</p>
+            <p>MERN Stack</p>
+            <p>SQL & MongoDB</p>
           </div>
           <div className="card-body col-lg-4">
             <p>jQuery</p>

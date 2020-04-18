@@ -20,6 +20,10 @@ function About() {
         <blockquote className="blockquote mb-0">
           <div className="row item aboutItems">
             <i className="far fa-check-square fa-1x check"></i>
+            <p className="lead tidbit">Cat obsessed, beer enthusiast.</p>
+          </div>
+          <div className="row item aboutItems">
+            <i className="far fa-check-square fa-1x check"></i>
             <p className="lead tidbit">
               Ability to thrive in fast-paced, dynamic environment.
             </p>
