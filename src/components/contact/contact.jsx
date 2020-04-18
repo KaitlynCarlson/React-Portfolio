@@ -20,7 +20,10 @@ function Contact() {
           <h1 className="display-5" id="contactheader">
             Contact
           </h1>
-          <h3 className="lead"> 📍 Based in Seattle, WA</h3>
+          <h3 className="lead">
+            {" "}
+            <span>📍</span> Based in Seattle, WA
+          </h3>
         </div>
         <div className="card-body contactContent">
           <blockquote className="blockquote mb-0">
