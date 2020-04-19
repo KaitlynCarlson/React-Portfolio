@@ -5,23 +5,21 @@ import BudgetTracker from "./project imgs/budgetIcon.png";
 import "./style.css";
 
 function Projects() {
-  // handleMothraClick = (event) => {
-  //   event.preventDefault;
-  // };
   return (
-    <div className="container animated zoomIn  delay-2" id="projects-header">
+    <div className="container " id="projects-header">
       <div id="projects">
         <div className="projectContainer">
           <img
             src={Mothra}
             alt="Mothra Project"
             id="mothraImg"
+            className="animated zoomIn"
             onClick={() => {
               window.open("https://the-best-project-manager.herokuapp.com/");
             }}
           />
           <i
-            className="fab fa-github fa-3x link"
+            className="fab fa-github fa-3x link animated zoomIn"
             id="mothraRepo"
             onClick={() => {
               window.open(

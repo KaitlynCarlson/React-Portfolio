@@ -5,7 +5,7 @@ import "./style.css";
 function Contact() {
   return (
     <div
-      className="card column text-white bg-dark contact-card container-fluid  animated zoomIn  delay-2"
+      className="card column text-white bg-dark contact-card container-fluid"
       id="display-card"
     >
       <img
@@ -32,7 +32,10 @@ function Contact() {
           <blockquote className="blockquote mb-0">
             <div className="row item">
               <a href="mailto:kaitlynannecarlson@gmail.com">
-                <i className="far fa-envelope fa-1x link" id="email"></i>
+                <i
+                  className="far fa-envelope fa-1x link animated jackInTheBox"
+                  id="email"
+                ></i>
               </a>
 
               <p className="lead tidbit" id="email">
@@ -41,7 +44,7 @@ function Contact() {
             </div>
             <div className="row item">
               <i
-                className="fab fa-github fa-1x link"
+                className="fab fa-github fa-1x link animated jackInTheBox"
                 id="githubrepo"
                 onClick={() => {
                   window.open("https://github.com/KaitlynCarlson");
@@ -51,7 +54,7 @@ function Contact() {
             </div>
             <div className="row item">
               <i
-                className="fab fa-linkedin-in fa-1x link"
+                className="fab fa-linkedin-in fa-1x link animated jackInTheBox"
                 id="linkedin"
                 onClick={() => {
                   window.open(
