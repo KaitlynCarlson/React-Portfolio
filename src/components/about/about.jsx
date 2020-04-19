@@ -4,7 +4,7 @@ import "./style.css";
 function About() {
   return (
     <div
-      className="card text-white bg-dark aboutCard animated zoomIn  delay-5s"
+      className="card text-white bg-dark aboutCard animated zoomIn  delay-2s"
       id="display-card"
     >
       <div className="card-header">
@@ -50,7 +50,7 @@ function About() {
             alt="Content Divider"
             src="https://p1.pxfuel.com/preview/642/836/892/aloe-cactus-rotate-queen.jpg"
             id="divider"
-            className="animated swing delay-2s"
+            className="animated swing delay-5s"
           />
         </div>
       </div>
