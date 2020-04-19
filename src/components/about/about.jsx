@@ -4,7 +4,7 @@ import "./style.css";
 function About() {
   return (
     <div
-      className="card text-white bg-dark aboutCard animated zoomIn  delay-2"
+      className="card text-white bg-dark aboutCard animated zoomIn  delay-5"
       id="display-card"
     >
       <div className="card-header">
