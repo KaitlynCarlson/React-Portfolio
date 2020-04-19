@@ -40,7 +40,8 @@ i:hover {
 #budgetTracker:hover,
 #employeeDirectory:hover,
 #burger:hover {
-  opacity: 70%;
+  opacity: 90%;
+  background-blend-mode: blue;
 }
 #moreProjects {
   margin-top: 15%;

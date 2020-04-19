@@ -148,7 +148,13 @@ function Projects() {
       </div>
       <div className="projectContainer" id="moreProjects">
         <h1 className="lead">More available on GitHub</h1>
-        <i className="fab fa-github fa-2x link" id="personalRepo"></i>
+        <i
+          className="fab fa-github fa-2x link"
+          id="personalRepo"
+          onClick={() => {
+            window.open("https://github.com/KaitlynCarlson");
+          }}
+        ></i>
       </div>
     </div>
   );
