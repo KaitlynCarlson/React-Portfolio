@@ -16,6 +16,7 @@ Versatile skills in idea synthesis, creative problem solving, and the ability to
 - React
 - HTML
 - CSS
+- Animate.css
 - BootStrap
 - Font Awesome
 - gh-pages
