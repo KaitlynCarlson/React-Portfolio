@@ -9,7 +9,7 @@ function Projects() {
   //   event.preventDefault;
   // };
   return (
-    <div className="container" id="projects-header">
+    <div className="container animated zoomIn  delay-2" id="projects-header">
       <div id="projects">
         <div className="projectContainer">
           <img

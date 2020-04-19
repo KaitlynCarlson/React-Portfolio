@@ -8,6 +8,7 @@ function Resume() {
       height="600px"
       id="resume"
       title="Kaitlyn Carlson Resume"
+      className="animated  zoomIn delay-2"
     ></iframe>
   );
 }

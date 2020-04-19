@@ -38,18 +38,18 @@ function Skills() {
           <div className="row languages-row">
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card-body">
-                <i className="fab fa-html5 fa-5x icon"></i>
+                <i className="fab fa-html5 fa-5x icon animated  jackInTheBox delay-2"></i>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card-body">
                 {" "}
-                <i className="fab fa-css3-alt fa-5x icon"></i>
+                <i className="fab fa-css3-alt fa-5x icon animated  jackInTheBox delay-2"></i>
               </div>
             </div>
             <div className="col-lg-4 col-md-12 col-sm-12">
               <div className="card-body">
-                <i className="fab fa-js-square fa-5x icon"></i>
+                <i className="fab fa-js-square fa-5x icon animated  jackInTheBox delay-2"></i>
               </div>
             </div>
           </div>

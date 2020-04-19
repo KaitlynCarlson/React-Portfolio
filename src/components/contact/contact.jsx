@@ -5,7 +5,7 @@ import "./style.css";
 function Contact() {
   return (
     <div
-      className="card column text-white bg-dark contact-card container-fluid "
+      className="card column text-white bg-dark contact-card container-fluid  animated zoomIn  delay-2"
       id="display-card"
     >
       <img
