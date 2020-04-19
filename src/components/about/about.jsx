@@ -20,23 +20,23 @@ function About() {
       <div className="card-body" id="about">
         <blockquote className="blockquote mb-0">
           <div className="row item aboutItems">
-            <i className="far fa-check-square fa-1x check"></i>
+            <i className="far fa-check-square fa-1x check animated jackInTheBox"></i>
             <p className="lead tidbit">Cat obsessed, beer enthusiast.</p>
           </div>
           <div className="row item aboutItems">
-            <i className="far fa-check-square fa-1x check"></i>
+            <i className="far fa-check-square fa-1x check animated jackInTheBox"></i>
             <p className="lead tidbit">
               Ability to thrive in fast-paced, dynamic environment.
             </p>
           </div>
           <div className="row item aboutItems">
-            <i className="far fa-check-square fa-1x check"></i>
+            <i className="far fa-check-square fa-1x check animated jackInTheBox"></i>
             <p className="lead tidbit">
               Desire to learn, grow, and evolve through challenges.
             </p>
           </div>
           <div className="row item aboutItems">
-            <i className="far fa-check-square fa-1x check"></i>
+            <i className="far fa-check-square fa-1x check animated jackInTheBox"></i>
             <p className="lead tidbit">Tireless work ethic.</p>
           </div>
         </blockquote>
@@ -47,7 +47,6 @@ function About() {
             alt="Content Divider"
             src="https://p1.pxfuel.com/preview/642/836/892/aloe-cactus-rotate-queen.jpg"
             id="divider"
-            className="animated swing delay-2s"
           />
         </div>
       </div>
