@@ -4,7 +4,8 @@ function Resume() {
   return (
     <div>
       <a
-        href="https://github.com/KaitlynCarlson/Updated_Portfolio/raw/master/KACResume.pdf"
+        href="./KaitlynCarlson.pdf"
+        download
         className="btn btn-primary btn-xl d-flex"
         id="download-resume-anchor"
       >
