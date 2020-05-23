@@ -38,7 +38,7 @@ function Contact() {
                 ></i>
               </a>
 
-              <p className="lead tidbit" id="email">
+              <p className="lead tidbit" id="emailname">
                 KaitlynAnneCarlson@gmail.com
               </p>
             </div>

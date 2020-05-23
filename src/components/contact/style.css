@@ -12,7 +12,12 @@
 #email:hover {
   padding: 3px;
   opacity: 0.3;
+  color: white;
 }
+#email {
+  color: white;
+}
+
 a {
   color: white;
 }
@@ -38,7 +43,7 @@ a {
     align-self: center;
   }
 
-  #email {
+  #emailname {
     font-size: 15px;
   }
 
