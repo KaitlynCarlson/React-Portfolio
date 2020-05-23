@@ -34,13 +34,13 @@ i {
   margin: 20px;
 }
 i:hover {
-  opacity: 30%;
+  opacity: 0.4;
 }
 #mothraImg:hover,
 #budgetTracker:hover,
 #employeeDirectory:hover,
 #burger:hover {
-  opacity: 90%;
+  opacity: 0.4;
   background-blend-mode: blue;
 }
 #moreProjects {

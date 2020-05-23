@@ -2,14 +2,23 @@ import React from "react";
 import "./style.css";
 function Resume() {
   return (
-    <iframe
-      width="680px"
-      height="600px"
-      id="resume"
-      title="Kaitlyn Carlson Resume"
-      className="animated  zoomIn delay-2"
-      src="https://drive.google.com/file/d/16vGMApVudDJcVFReT78bdwaG-L89VPG4/preview"
-    ></iframe>
+    <div>
+      <a
+        href="https://github.com/KaitlynCarlson/Updated_Portfolio/raw/master/KACResume.pdf"
+        className="btn btn-primary btn-xl d-flex"
+        id="download-resume-anchor"
+      >
+        Download
+      </a>
+      <iframe
+        src="https://docs.google.com/document/d/e/2PACX-1vQ9IIHA54yahXq0fJtvsP15AgTeUv8DQQ0vrpaOFYQLYU1iFOyMOIlM5p3pyjH5KL3N8t6mbLzQ_Cpo/pub?embedded=true"
+        width="900px"
+        height="925px"
+        id="resume"
+        title="Kaitlyn Carlson Resume"
+        className="animated  zoomIn delay-2"
+      ></iframe>
+    </div>
   );
 }
 export default Resume;

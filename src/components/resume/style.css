@@ -3,6 +3,10 @@
   margin-bottom: 100px;
   margin-top: 20px;
 }
+#download-resume-anchor {
+  font-weight: 500;
+  width: 100px;
+}
 @media screen and (max-width: 600px) {
   #resume {
     width: auto;
