@@ -4,7 +4,7 @@ function Resume() {
   return (
     <div>
       <a
-        href="./KaitlynCarlson.pdf"
+        href="https://github.com/KaitlynCarlson/React-Portfolio/raw/master/src/components/resume/KaitlynCarlson.pdf"
         download
         className="btn btn-primary btn-xl d-flex"
         id="download-resume-anchor"
