@@ -76,7 +76,7 @@ function About() {
           have a strong focus on consumer needs and desires. <br />
           <br />
           Technical skills in the MERN stack with knowledge of both SQL and
-          NoSQL databases. Proven track record of effective collatoration with a
+          NoSQL databases. Proven track record of effective collaboration with a
           team to achieve optimal results. Mothra Project Management Tracker is
           one such project that utilizes JavaScript, NodeJS and a SQL database
           to create a useful and effective project management tool for users. An
