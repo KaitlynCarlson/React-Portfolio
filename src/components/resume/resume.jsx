@@ -12,7 +12,7 @@ function Resume() {
         Download
       </a>
       <iframe
-        src="https://docs.google.com/document/d/e/2PACX-1vQ9IIHA54yahXq0fJtvsP15AgTeUv8DQQ0vrpaOFYQLYU1iFOyMOIlM5p3pyjH5KL3N8t6mbLzQ_Cpo/pub?embedded=true"
+        src="https://docs.google.com/document/d/e/2PACX-1vT3xDD609cw2MwBzzexvIYYnhnDuVUqEESWDQXs79t3LOnNXDsZ3FVtn9dsWM3XM7LCgqBSwC6wRic5/pub?embedded=true"
         width="900px"
         height="925px"
         id="resume"
